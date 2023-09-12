@@ -1,0 +1,851 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --nans:'Nunito Sans', sans-serif;
+    --os: 'Oswald', sans-serif;
+}
+
+/* header starting */
+
+header {
+    width: 100%;
+    background: url('./picture/image\(1\).png') no-repeat center / cover;
+}
+
+header .navbar {
+    padding: 0px;
+}
+
+header .navbar .navbar-brand {
+    padding: 0px;
+    margin-right: 140px;
+    color: rgba(255, 255, 255, 1);
+    font-family: var(--os);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+header .navbar .navbar-brand span {
+    color: rgba(246, 69, 45, 1);
+}
+
+header .navbar .collapse .navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+header .navbar .collapse .navbar-nav .nav-item:last-child{
+    margin-right: 20px;
+}
+
+header .navbar .collapse .navbar-nav .nav-item .nav-link {
+    padding: 0px;
+    font-family: var(--nans);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    padding: 8px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+    background-color: rgba(246, 69, 45, 1);
+    transition: 1s;
+}
+
+header .navbar .collapse .brands .fa-brands {
+    margin-right: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+header .navbar .collapse .brands .fa-brands:hover {
+    color: rgba(246, 69, 45, 1);
+    transition: 1s;
+}
+
+header .header-title {
+    width: 100%;
+    padding-top: 300px;
+    text-align: center;
+}
+
+header .header-title p {
+    font-family: var(--nans);
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+header .header-title h3 {
+    font-family: var(--os);
+    font-weight: 600;
+    font-size: 120px;
+    line-height: 180px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+header .header-title button {
+    font-family: var(--nans);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 8px;
+    padding: 25px 50px;
+    color: rgba(255, 255, 255, 1);
+    border: 2px solid #FFFFFF;
+    background: none;
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+
+header .header-title button:hover {
+    background-color: rgba(246, 69, 45, 1);
+    border: none;
+    transition: 1s;
+}
+
+header .header-title button.fa-solid {
+    margin-left: 10px;
+}
+
+/* main starting */
+main {
+    width: 100%;
+}
+
+main .remember p {
+    margin-top: 140px;
+    font-family: var(--nans);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: rgba(246, 69, 45, 1);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+main .remember h4 {
+    font-family: var(--os);
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 64px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+main .about p {
+    margin-top: 140px;
+    font-family: var(--nans);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: rgba(125, 125, 125, 1);
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+main .about button {
+    font-family: var(--nans);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 8px;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    padding: 25px 50px;
+    border: none;
+    background: rgba(246, 69, 45, 1);
+    margin-bottom: 150px;
+}
+
+main .about button.fa-solid {
+    margin-left: 10px;
+}
+
+/* section-categories starting */
+section.categories {
+    width: 100%;
+}
+
+section.categories .library {
+    margin-right: 40px;
+}
+
+section.categories .library h5 {
+    margin-top: 140px;
+    font-family: var(--os);
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 41px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+section.categories .library h5 span {
+    color: rgba(246, 69, 45, 1);
+}
+
+section.categories .library p {
+    font-family: var(--nans);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: rgba(125, 125, 125, 1);
+    margin-top: 6px;
+    margin-bottom: 140px;
+    cursor: pointer;
+}
+
+/* section-project starting */
+section.project {
+    width: 100%;
+    background: url('./picture/Img.png') no-repeat center / cover;
+}
+
+section.project .gallery {
+    margin-top: 140px;
+}
+
+section.project .gallery p {
+    font-family: var(--nans);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 5px;
+    color: rgba(246, 69, 45, 1);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+section.project .gallery h4 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: var(--os);
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 64px;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+section.project .cardSlider {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.project .cardSlider .box {
+    margin-right: 20px;
+    position: relative;
+}
+
+section.project .cardSlider .box:last-child {
+    margin-right: 0px;
+}
+
+section.project .cardSlider .box img {
+    width: 100%;
+}
+
+section.project .carousel button {
+    position: absolute;
+    top: -80px;
+    right: 10px !important;
+    left: unset !important;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 28px;
+    padding-right: 200px;
+}
+
+section.project .carousel button:hover {
+    color: white;
+}
+
+section.project .carousel .carousel-control-prev {
+    right: 85px !important;
+}
+
+/* section-plans starting */
+section.plans {
+    width: 100%;
+}
+
+section.plans .packages {
+    margin-top: 140px;
+}
+
+section.plans .packages p {
+    font-family: var(--nans);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 5px;
+    color: rgba(246, 69, 45, 1);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+section.plans .packages h4 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: var(--os);
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 64px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+section.plans .tab {
+    margin-top: 40px;
+    display: flex;
+}
+
+section.plans .tab .regular h5 {
+    font-family: var(--nans);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(31, 31, 31, 1);
+    padding: 8px 30px;
+    background-color: rgba(255, 255, 255, 1);
+    width: 138px;
+    height: 36px;
+    margin-right: 28px;
+    border: 1px solid #E4E4E4;
+    cursor: pointer;
+} 
+
+section.plans .tab .regular h5:hover {
+    background-color: rgba(246, 69, 45, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    transition: 1s;
+}
+
+section.plans .tab .medium h5 {
+    font-family: var(--nans);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(31, 31, 31, 1);
+    padding: 8px 30px;
+    background-color: rgba(255, 255, 255, 1);
+    width: 127px;
+    height: 36px;
+    margin-right: 28px;
+    border: 1px solid #E4E4E4;
+    cursor: pointer;
+} 
+
+section.plans .tab .medium h5:hover {
+    background-color: rgba(246, 69, 45, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    transition: 1s;
+}
+
+section.plans .tab .van h5 {
+    font-family: var(--nans);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(31, 31, 31, 1);
+    padding: 8px 30px;
+    background-color: rgba(255, 255, 255, 1);
+    width: 140px;
+    height: 36px;
+    margin-right: 28px;
+    border: 1px solid #E4E4E4;
+    cursor: pointer;
+} 
+
+section.plans .tab .van h5:hover {
+    background-color: rgba(246, 69, 45, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    transition: 1s;
+}
+
+section.plans .tab .track h5 {
+    font-family: var(--nans);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(31, 31, 31, 1);
+    padding: 8px 30px;
+    background-color: rgba(255, 255, 255, 1);
+    width: 182px;
+    height: 36px;
+    margin-right: 28px;
+    border: 1px solid #E4E4E4;
+    cursor: pointer;
+} 
+
+section.plans .tab .track h5:hover {
+    background-color: rgba(246, 69, 45, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    transition: 1s;
+}
+
+section.plans .traffics {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.plans .card {
+    position: relative;
+    margin-top: 40px;
+    border: 1px solid #E4E4E4;
+    width: 300px;
+    height: 594px;
+    right: 20px;
+}
+
+section.plans .card .box{
+    padding-top: 60px;
+}
+
+section.plans .card .box .top p {
+    font-family: var(--nans);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: rgba(246, 69, 45, 1);
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+section.plans .card .box .top h6 {
+    margin-top: 6px;
+    font-family: var(--os);
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 71px;
+    text-align: center;
+    color: rgba(23, 23, 23, 1);
+    cursor: pointer;
+}
+
+section.plans .card .box .check {
+    margin-top: 30px;
+}
+
+section.plans .card .box .check p {
+    font-family: var(--nans);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: rgba(125, 125, 125, 1);
+    text-align: center;
+    cursor: pointer;
+}
+
+section.plans .card .box .check p .fa-solid {
+    color: rgba(246, 69, 45, 1);
+    margin-right: 8px;
+}
+
+section.plans .card button {
+    position: absolute;
+    bottom: 30px;
+    margin-right: 69px;
+    margin-left: 59px;
+    width: 181px;
+    height: 52px;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(246, 69, 45, 1);
+    font-family: var(--nans);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+section.plans .card button .fa-solid {
+    margin-left: 8px;
+}
+
+/* section-blog starting */
+section.blog {
+    width: 100%;
+}
+
+section.blog .posts {
+    margin-top: 140px;
+    text-align: center;
+}
+
+section.blog .posts p {
+    font-family: var(--nans);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 5px;
+    color: rgba(246, 69, 45, 1);
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+section.blog .posts h4 {
+    font-family: var(--os);
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 64px;
+    letter-spacing: 1px;
+    color: rgba(31, 31, 31, 1);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+section.blog .car {
+    margin-top: 40px;
+    margin-left: -50px;
+    width: 1400px;
+    height: 150px;
+    border: 1px solid #E4E4E4;
+    position: relative;
+}
+
+section.blog .car:hover {
+    background: #F7F7F7;
+    transition: 1s;
+}
+
+section.blog .car:nth-last-child(1) {
+    margin-top: 0px;
+}
+
+section.blog .car:nth-last-child(2) {
+    margin-top: 0px;
+}
+
+section.blog .car .date {
+   position: absolute;
+   top: 42px;
+   left: 340px;
+   bottom: 42px;
+}
+
+section.blog .car .date h6 {
+    font-family: var(--os);
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 41px;
+    letter-spacing: 1px;
+    color: rgba(246, 69, 45, 1);
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+section.blog .car .date p {
+    font-family: var(--nans);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    color: rgba(125, 125, 125, 1);
+    cursor: pointer;
+}
+
+section.blog .car .text {
+    position: absolute;
+    top: 40px;
+    bottom: 40px;
+    left: 414px;
+}
+
+section.blog .car .text p {
+    font-family: var(--nans);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 5px;
+    color: rgba(171, 171, 171, 1);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+section.blog .car .text p span {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+section.blog .car .text h6 {
+    margin-top: 3px;
+    font-family: var(--os);
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 41px;
+    letter-spacing: 2px;
+    color: rgba(47, 47, 47, 1);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+section.blog .car .text h6:hover {
+    color: rgba(246, 69, 45, 1);
+    transition: 1s;
+}
+
+section.blog .button {
+    margin-top: 40px;
+    text-align: center;
+}
+
+section.blog .button button {
+    padding: 26px 60px;
+    font-family: var(--nans);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 8px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    background-color: rgba(246, 69, 45, 1);
+    text-transform: uppercase;
+    margin-bottom: 140px;
+}
+
+section.blog .button button .fa-solid {
+    margin-left: 9px;
+}
+
+/* section-img starting */
+section.img {
+    width: 100%;
+    height: 927px;
+    background: url('./picture/Video.png') no-repeat center / cover;
+    background-size: 100%;
+}
+
+/* section-location starting */
+section.location {
+    width: 100%;
+}
+
+section.location .info {
+    width: 473px;
+    height: 374px;
+    border-right: 1px solid #E4E4E4;
+    margin-top: -97px;
+}
+
+/* section.location .info:last-child {
+    border-right: 0px;
+} */
+
+section.location .info h6 {
+    padding-top: 140px;
+    font-family: var(--nans);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(246, 69, 45, 1);
+    cursor: pointer;
+}
+
+section.location .info .numbers {
+    text-align: center;
+    margin-top: 14px;
+}
+
+section.location .info .numbers p {
+    font-family: var(--nans);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: rgba(125, 125, 125, 1);
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+section.location .info .numbers p:last-child {
+    margin-top: 4px;
+}
+
+/* footer starting */
+footer {
+    width: 100%;
+    background: #F6F6F6
+}
+
+footer .footer-logo {
+    margin-top: 140px;
+    margin-bottom: 20px;
+}
+
+footer .footer-logo a {
+    font-family: var(--os);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 61px;
+    letter-spacing: 4px;
+    color: rgba(31, 31, 31, 1);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+footer .footer-logo a span {
+    color: rgba(246, 69, 45, 1);
+}
+
+footer .footer-logo p {
+    margin-top: 20px;
+    font-family: var(--nans);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: rgba(125, 125, 125, 1);
+    cursor: pointer;
+}
+
+footer .footer-logo .social .fa-brands {
+    margin-right: 30px;
+    color: rgba(208, 208, 208, 1);
+    cursor: pointer;
+}
+
+footer .footer-logo .social .fa-brands:hover {
+    color: rgba(246, 69, 45, 1);
+    transition: 1s;
+}
+
+footer .about ul {
+    margin-top: 140px;
+    margin-right: 30px;
+    margin-left: 0px;
+}
+
+footer .about ul:nth-of-type(2) {
+    margin-right: 60px;
+}
+
+footer .about ul:nth-of-type(3) {
+    margin-right: 60px;
+}
+
+footer .about ul:nth-of-type(4) {
+    margin-right: 0px;
+}
+
+footer .about ul p {
+    font-family: var(--os);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 2px;
+    color: rgba(31, 31, 31, 1);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+footer .about ul li {
+    margin-top: 22px;
+    margin-bottom: 20px;
+}
+
+footer .about ul li p {
+    margin-bottom: 20px;
+    font-family: var(--nans);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: rgba(125, 125, 125, 1);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+footer .about ul li p:hover {
+    color: rgba(246, 69, 45, 1);
+    transition: 1s;
+}
+
+footer .about {
+    display: flex;
+}
+
+footer .footer-bottom {
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
+    position: relative;
+}
+
+footer .footer-bottom h6 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: var(--nans);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: rgba(125, 125, 125, 1);
+    position: absolute;
+    left: 110px;
+    top: -15px;
+    cursor: pointer;
+}
+
+footer .footer-bottom p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: var(--nans);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: rgba(125, 125, 125, 1);
+    position: absolute;
+    left: 1200px;
+    top: -15px;
+    cursor: pointer;
+}
+
+footer .footer-bottom p span {
+    font-family: var(--nans);
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 28px;
+}
